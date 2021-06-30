@@ -2,6 +2,7 @@ import { fade, makeStyles } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 export const useStyles = makeStyles((theme) => ({
+
     grow: {
         flexGrow: 1,
         height: '10vh',
@@ -11,12 +12,16 @@ export const useStyles = makeStyles((theme) => ({
         display: 'block',
         [theme.breakpoints.up('sm')]: {
             display: 'none',
+                    color:'black',
+
+
         },
     },
     title: {
-        // display: 'none',
+        display: 'none',
         [theme.breakpoints.up('sm')]: {
             display: 'block',
+            color:'black',
         },
     },
     searchIcon: {
@@ -60,9 +65,9 @@ export const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         flex: 1,
 
-        ['@media (max-width: 780px)']: { // eslint-disable-line no-useless-computed-key
+        ['@media (max-width: 780px)']: {
             backgroundColor: 'lightblue',
-            display: 'block',
+            // display: 'block',
             display: 'flex',
             flexDirection: 'column',
             height: '87.5vh',
@@ -88,7 +93,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     listItemLink: {
         textDecoration: 'none',
-        color: 'white',
+        color: 'black',
     },
 
     linkText: {
@@ -101,7 +106,7 @@ export const useStyles = makeStyles((theme) => ({
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            fontSize: '30px',
+
         }
     },
     listItemsActive: {
@@ -112,7 +117,7 @@ export const useStyles = makeStyles((theme) => ({
 
         ['@media (max-width: 780px)']: {
             backgroundColor: 'lightblue',
-            display: 'block',
+            // display: 'block',
             display: 'flex',
             flexDirection: 'column',
             height: '87.5vh',

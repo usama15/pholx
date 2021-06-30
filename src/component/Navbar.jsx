@@ -122,7 +122,6 @@ export default function PrimarySearchAppBar() {
           <Typography className={classes.title} variant="h6" noWrap>
             Material-UI
           </Typography>
-          <div className={classes.grow} />
           <div>
             <List
               className={`${navOpen ? `${classes.listItemsActive}` : `${classes.listItems}`}`}

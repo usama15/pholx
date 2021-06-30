@@ -1,0 +1,45 @@
+.card1{
+    margin-top: 2%;
+    border-radius: 20px;
+    background-color: #dedcdc;
+    box-sizing: border-box;
+    hyphens: manual;
+    width: 94%;
+    margin-left:3%;
+    height: 40em !important;
+    padding: 10%;
+}
+.title1{
+    font-size: 80px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.title3{
+    font-size: 164px;
+    line-height: 98px;
+    font-weight: 900;
+    color: white;
+}
+
+.title2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #f42c37!important;
+    border-radius: 30px!important;
+    color: white!important;
+    margin-top: 2% !important;
+    padding: 1.2% !important;
+}
+
+.img{
+    height: 600px;
+    width: 980px;
+    position: absolute;
+    margin: 7% 0 0 28% ;
+
+}
