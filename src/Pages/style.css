@@ -1,5 +1,7 @@
+/*card 1 */
+
 .card1{
-    margin-top: 2%;
+    margin-top: 1%;
     border-radius: 20px;
     background-color: #dedcdc;
     box-sizing: border-box;
@@ -9,6 +11,7 @@
     height: 40em !important;
     padding: 10%;
 }
+
 .title1{
     font-size: 80px;
     margin-bottom: 40px;
@@ -35,11 +38,125 @@
     margin-top: 2% !important;
     padding: 1.2% !important;
 }
-
 .img{
     height: 600px;
     width: 980px;
     position: absolute;
     margin: 7% 0 0 28% ;
 
+}
+
+/*card 2*/
+.card2{
+     margin-top: 2%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    hyphens: manual;
+    width: 23%;
+    margin-left:3%;
+    height: 23em !important;
+    padding: 11% 4% 4% 2.5%;
+    background-color: #1f1d1d;
+}
+.sub1{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 35px;
+    color: white;
+}
+
+.sub2{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    /*margin-bottom: 8%;*/
+}
+
+.sub3{
+    font-size: 44px;
+    line-height: 18px;
+    font-weight: 900;
+    color: #454343;
+}
+
+.btn1{
+    background-color: #f42c37!important;
+    border-radius: 30px!important;
+    color: white!important;
+    margin-top: 5% !important;
+    padding: 3% 8% !important;
+}
+
+.img1{
+    position: absolute;
+    margin: 0% 0 0 0 ;
+}
+
+/*card 3*/
+.card3{
+     margin-top: 2%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    hyphens: manual;
+    width: 23%;
+    margin-left:3%;
+    height: 23em !important;
+    padding: 11% 4% 4% 2.5%;
+    background-color: #f8bf24;
+}
+.sub4{
+    font-size: 44px;
+    line-height: 18px;
+    font-weight: 900;
+    color: #ffd76a;
+}
+
+.img2{
+    position: absolute;
+    margin: 2% 0 0 29% ;
+}
+
+/*card 4*/
+
+.card4{
+    margin-top: 2%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    hyphens: manual;
+    width: 42%;
+    margin-left:3%;
+    height: 23em !important;
+    padding: 11% 4% 4% 2.5%;
+    background-color: #f42c37;
+}
+
+.sub5{
+     font-size: 44px;
+    line-height: 18px;
+    font-weight: 900;
+    color: #f6565f;
+}
+
+.btn2{
+    background-color: white!important;
+    border-radius: 30px!important;
+    color: #f42c37!important;
+    margin-top: 5% !important;
+    padding: 2% 7% !important;
+}
+
+
+
+
+
+
+
+
+
+/*extra*/
+
+.row1{
+    display: flex;
+    flex-direction: row!important;
 }

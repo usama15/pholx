@@ -12,13 +12,13 @@ import {
   ListItemText
 } from '@material-ui/core';
 
+import './Nav.css'
+
 import MenuIcon from '@material-ui/icons/Menu';
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingBasketOutlined';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
-
 import { useStyles } from './NavBarStyle';
-
 import { Link } from 'react-router-dom'
 
 export default function PrimarySearchAppBar() {
@@ -76,9 +76,9 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <IconButton aria-label="show 11 new notifications" color="inherit">
-          <Badge badgeContent={11} color="secondary">
-            <AddShoppingCartIcon />
+        <IconButton aria-label="show 1 new notifications" color="inherit">
+          <Badge badgeContent={1} color="secondary">
+            <ShoppingCartIcon />
           </Badge>
         </IconButton>
         <p>Cart</p>
@@ -107,7 +107,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar className='nav' position="static">
         <Toolbar>
           <IconButton
             edge="start"
@@ -150,11 +150,7 @@ export default function PrimarySearchAppBar() {
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton aria-label="show 17 new notifications" color="inherit">
-              <Badge badgeContent={17} color="secondary">
-                <AddShoppingCartIcon />
-              </Badge>
-            </IconButton>
+
             <IconButton
               edge="end"
               aria-label="account of current user"
@@ -163,7 +159,17 @@ export default function PrimarySearchAppBar() {
               onClick={handleProfileMenuOpen}
               color="inherit"
             >
-              <AccountCircle />
+              <ListItemText className={classes.listItem} onClick={closeOnMobileMenu}>
+                <Link to="/contact" className={classes.listItemLink}>
+                  <ListItemText className={classes.linkText}>Login</ListItemText>
+                </Link>
+              </ListItemText>
+              {/*<AccountCircle />*/}
+            </IconButton>
+             <IconButton aria-label="show 1 new notifications" color="inherit">
+              <Badge badgeContent={1} color="secondary">
+                <ShoppingCartIcon />
+              </Badge>
             </IconButton>
           </div>
           <div className={classes.sectionMobile}>
