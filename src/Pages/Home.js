@@ -52,7 +52,7 @@ const Home = () => {
                     </Card.Body>
                     <Button variant='contained' className='btn1'>Browse</Button>
                 </Card>
-                <div></div>
+                <img className='img3' src='https://demo.phlox.pro/shop-digital/wp-content/uploads/sites/127/2019/09/Laptop.png' alt='laptop'/>
                  <Card className='card4' >
                     <Card.Body>
                         <span className='sub2'>
