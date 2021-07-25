@@ -68,6 +68,53 @@ const Home = () => {
                     <Button variant='contained' className='btn2'>Browse</Button>
                 </Card>
             </div>
+            <div className='row1'>
+                 <img className='img4' src='https://demo.phlox.pro/shop-digital/wp-content/uploads/sites/127/2019/10/NicePng_ps4-png_193822.png' alt='game device'/>
+                 <Card className='card5' >
+                    <Card.Body>
+                        <span className='sub2'>
+                            Best
+                        </span>
+                        <Card.Title className='sub1'>
+                            Gaming
+                        </Card.Title>
+                        <span className='sub6'>
+                            CONSOLE
+                        </span>
+                    </Card.Body>
+                    <Button variant='contained' className='btn1'>Browse</Button>
+                </Card>
+                 <Card className='card6' >
+                <Card.Body>
+                <span className='sub2'>
+                    Enjoy
+                </span>
+                <Card.Title className='sub1'>
+                    With
+                </Card.Title>
+                <span className='sub7'>
+                    EARPHONE
+                </span>
+                </Card.Body>
+                <Button variant='contained' className='btn3'>Browse</Button>
+            </Card>
+                {/*<img className='img2' src='https://demo.phlox.pro/shop-digital/wp-content/uploads/sites/127/2019/09/clay-apple-watch-mockup-07.png' alt='watch'/>*/}
+                <Card className='card3' >
+                    <Card.Body>
+                        <span className='sub2'>
+                            New
+                        </span>
+                        <Card.Title className='sub1'>
+                            Wear
+                        </Card.Title>
+                        <span className='sub4'>
+                            GADGETS
+                        </span>
+                    </Card.Body>
+                    <Button variant='contained' className='btn1'>Browse</Button>
+                </Card>
+
+            </div>
 
         </div>
     )
